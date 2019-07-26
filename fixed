@@ -1,0 +1,5 @@
+코드 .py로 저장하기
+
+터미널에서 명령어 입력
+~/caffe/python$ python fixed_mod.py 
+~/caffe$ build/examples/cpp_classification/classification.bin models/SqueezeNet/SqueezeNet_v1.1/deploy.prototxt python/fixed_mod.caffemodel data/ilsvrc12/imagenet_mean.binaryproto data/ilsvrc12/synset_words.txt examples/images/cat.jpg
